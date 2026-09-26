@@ -1,6 +1,6 @@
-package org.popcraft.chunky.command;
+package com.ozel.haritayukleyici.command;
 
-import org.popcraft.chunky.platform.Sender;
+import com.ozel.haritayukleyici.platform.Sender;
 
 import java.util.List;
 

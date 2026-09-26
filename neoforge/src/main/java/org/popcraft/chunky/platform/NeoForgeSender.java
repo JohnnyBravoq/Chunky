@@ -1,4 +1,4 @@
-package org.popcraft.chunky.platform;
+package com.ozel.haritayukleyici.platform;
 
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.network.chat.Component;
@@ -6,9 +6,9 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.permissions.Permissions;
 import net.minecraft.world.phys.Vec2;
 import net.minecraft.world.phys.Vec3;
-import org.popcraft.chunky.platform.util.Location;
+import com.ozel.haritayukleyici.platform.util.Location;
 
-import static org.popcraft.chunky.util.Translator.translateKey;
+import static com.ozel.haritayukleyici.util.Translator.translateKey;
 
 public class NeoForgeSender implements Sender {
     private final CommandSourceStack source;

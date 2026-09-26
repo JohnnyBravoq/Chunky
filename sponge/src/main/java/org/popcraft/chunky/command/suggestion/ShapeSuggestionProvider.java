@@ -1,6 +1,6 @@
-package org.popcraft.chunky.command.suggestion;
+package com.ozel.haritayukleyici.command.suggestion;
 
-import org.popcraft.chunky.shape.ShapeType;
+import com.ozel.haritayukleyici.shape.ShapeType;
 import org.spongepowered.api.command.CommandCompletion;
 import org.spongepowered.api.command.parameter.CommandContext;
 import org.spongepowered.api.command.parameter.managed.ValueCompleter;

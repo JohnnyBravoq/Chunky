@@ -1,15 +1,15 @@
-package org.popcraft.chunky.iterator;
+package com.ozel.haritayukleyici.iterator;
 
-import org.popcraft.chunky.Chunky;
-import org.popcraft.chunky.Selection;
-import org.popcraft.chunky.nbt.StringTag;
-import org.popcraft.chunky.nbt.TagType;
-import org.popcraft.chunky.nbt.util.ChunkFilter;
-import org.popcraft.chunky.nbt.util.RegionFile;
-import org.popcraft.chunky.util.ChunkCoordinate;
-import org.popcraft.chunky.util.Hilbert;
-import org.popcraft.chunky.util.Parameter;
-import org.popcraft.chunky.util.TranslationKey;
+import com.ozel.haritayukleyici.Chunky;
+import com.ozel.haritayukleyici.Selection;
+import com.ozel.haritayukleyici.nbt.StringTag;
+import com.ozel.haritayukleyici.nbt.TagType;
+import com.ozel.haritayukleyici.nbt.util.ChunkFilter;
+import com.ozel.haritayukleyici.nbt.util.RegionFile;
+import com.ozel.haritayukleyici.util.ChunkCoordinate;
+import com.ozel.haritayukleyici.util.Hilbert;
+import com.ozel.haritayukleyici.util.Parameter;
+import com.ozel.haritayukleyici.util.TranslationKey;
 
 import java.io.IOException;
 import java.nio.file.Files;

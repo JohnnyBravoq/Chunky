@@ -1,7 +1,7 @@
-package org.popcraft.chunky.util;
+package com.ozel.haritayukleyici.util;
 
-import org.popcraft.chunky.Selection;
-import org.popcraft.chunky.shape.ShapeType;
+import com.ozel.haritayukleyici.Selection;
+import com.ozel.haritayukleyici.shape.ShapeType;
 
 import java.text.DecimalFormat;
 

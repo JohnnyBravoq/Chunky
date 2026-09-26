@@ -1,4 +1,4 @@
-package org.popcraft.chunky.util;
+package com.ozel.haritayukleyici.util;
 
 public final class TranslationKey {
     public static final String BORDER_DEPENDENCY_UPDATE = "border_dependency_update";

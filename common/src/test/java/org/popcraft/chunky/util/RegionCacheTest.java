@@ -1,9 +1,9 @@
-package org.popcraft.chunky.util;
+package com.ozel.haritayukleyici.util;
 
 import org.junit.Test;
-import org.popcraft.chunky.Selection;
-import org.popcraft.chunky.iterator.ChunkIterator;
-import org.popcraft.chunky.iterator.ConcentricChunkIterator;
+import com.ozel.haritayukleyici.Selection;
+import com.ozel.haritayukleyici.iterator.ChunkIterator;
+import com.ozel.haritayukleyici.iterator.ConcentricChunkIterator;
 
 import static org.junit.Assert.assertTrue;
 

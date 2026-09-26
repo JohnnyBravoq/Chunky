@@ -1,6 +1,6 @@
-package org.popcraft.chunky.event.command;
+package com.ozel.haritayukleyici.event.command;
 
-import org.popcraft.chunky.event.Event;
+import com.ozel.haritayukleyici.event.Event;
 
 public record ReloadCommandEvent() implements Event {
 }

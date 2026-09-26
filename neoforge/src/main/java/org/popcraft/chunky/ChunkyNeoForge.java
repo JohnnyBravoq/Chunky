@@ -1,4 +1,4 @@
-package org.popcraft.chunky;
+package com.ozel.haritayukleyici;
 
 import com.mojang.brigadier.Command;
 import com.mojang.brigadier.builder.ArgumentBuilder;
@@ -17,19 +17,19 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.RegisterCommandsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 import net.neoforged.neoforge.event.server.ServerStoppingEvent;
-import org.popcraft.chunky.command.ChunkyCommand;
-import org.popcraft.chunky.command.CommandArguments;
-import org.popcraft.chunky.command.CommandLiteral;
-import org.popcraft.chunky.command.suggestion.SuggestionProviders;
-import org.popcraft.chunky.event.task.GenerationTaskFinishEvent;
-import org.popcraft.chunky.event.task.GenerationTaskUpdateEvent;
-import org.popcraft.chunky.listeners.bossbar.BossBarTaskFinishListener;
-import org.popcraft.chunky.listeners.bossbar.BossBarTaskUpdateListener;
-import org.popcraft.chunky.platform.NeoForgePlayer;
-import org.popcraft.chunky.platform.NeoForgeSender;
-import org.popcraft.chunky.platform.NeoForgeServer;
-import org.popcraft.chunky.platform.Sender;
-import org.popcraft.chunky.platform.impl.GsonConfig;
+import com.ozel.haritayukleyici.command.ChunkyCommand;
+import com.ozel.haritayukleyici.command.CommandArguments;
+import com.ozel.haritayukleyici.command.CommandLiteral;
+import com.ozel.haritayukleyici.command.suggestion.SuggestionProviders;
+import com.ozel.haritayukleyici.event.task.GenerationTaskFinishEvent;
+import com.ozel.haritayukleyici.event.task.GenerationTaskUpdateEvent;
+import com.ozel.haritayukleyici.listeners.bossbar.BossBarTaskFinishListener;
+import com.ozel.haritayukleyici.listeners.bossbar.BossBarTaskUpdateListener;
+import com.ozel.haritayukleyici.platform.NeoForgePlayer;
+import com.ozel.haritayukleyici.platform.NeoForgeSender;
+import com.ozel.haritayukleyici.platform.NeoForgeServer;
+import com.ozel.haritayukleyici.platform.Sender;
+import com.ozel.haritayukleyici.platform.impl.GsonConfig;
 
 import java.nio.file.Path;
 import java.util.Arrays;

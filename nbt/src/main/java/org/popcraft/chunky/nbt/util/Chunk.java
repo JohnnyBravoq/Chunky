@@ -1,6 +1,6 @@
-package org.popcraft.chunky.nbt.util;
+package com.ozel.haritayukleyici.nbt.util;
 
-import org.popcraft.chunky.nbt.Tag;
+import com.ozel.haritayukleyici.nbt.Tag;
 
 public final class Chunk {
     private int x;

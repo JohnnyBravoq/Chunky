@@ -1,10 +1,10 @@
-package org.popcraft.chunky.listeners.bossbar;
+package com.ozel.haritayukleyici.listeners.bossbar;
 
 import net.minecraft.resources.Identifier;
 import net.minecraft.server.level.ServerBossEvent;
-import org.popcraft.chunky.GenerationTask;
-import org.popcraft.chunky.event.task.GenerationTaskFinishEvent;
-import org.popcraft.chunky.platform.World;
+import com.ozel.haritayukleyici.GenerationTask;
+import com.ozel.haritayukleyici.event.task.GenerationTaskFinishEvent;
+import com.ozel.haritayukleyici.platform.World;
 
 import java.util.Map;
 import java.util.function.Consumer;

@@ -1,6 +1,6 @@
-package org.popcraft.chunky.integration;
+package com.ozel.haritayukleyici.integration;
 
-import org.popcraft.chunky.platform.Border;
+import com.ozel.haritayukleyici.platform.Border;
 
 public interface BorderIntegration extends Integration {
     boolean hasBorder(String world);

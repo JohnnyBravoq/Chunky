@@ -1,18 +1,18 @@
-package org.popcraft.chunky.platform;
+package com.ozel.haritayukleyici.platform;
 
 import net.md_5.bungee.api.ChatMessageType;
 import net.md_5.bungee.api.chat.TextComponent;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Entity;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.popcraft.chunky.ChunkyBukkit;
-import org.popcraft.chunky.platform.util.Location;
+import com.ozel.haritayukleyici.ChunkyBukkit;
+import com.ozel.haritayukleyici.platform.util.Location;
 
 import java.util.List;
 import java.util.UUID;
 import java.util.concurrent.CompletableFuture;
 
-import static org.popcraft.chunky.util.Translator.translateKey;
+import static com.ozel.haritayukleyici.util.Translator.translateKey;
 
 public class BukkitPlayer extends BukkitSender implements Player {
     private static final boolean ACTION_BAR_SUPPORTED;

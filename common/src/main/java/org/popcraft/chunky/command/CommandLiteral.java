@@ -1,4 +1,4 @@
-package org.popcraft.chunky.command;
+package com.ozel.haritayukleyici.command;
 
 public final class CommandLiteral {
     public static final String BORDER = "border";

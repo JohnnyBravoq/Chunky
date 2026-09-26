@@ -1,4 +1,4 @@
-package org.popcraft.chunky.event;
+package com.ozel.haritayukleyici.event;
 
 public abstract class Cancellable implements Event {
     private boolean cancelled;

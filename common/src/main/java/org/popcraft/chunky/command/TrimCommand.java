@@ -1,21 +1,21 @@
-package org.popcraft.chunky.command;
+package com.ozel.haritayukleyici.command;
 
-import org.popcraft.chunky.Chunky;
-import org.popcraft.chunky.Selection;
-import org.popcraft.chunky.nbt.LongTag;
-import org.popcraft.chunky.nbt.Tag;
-import org.popcraft.chunky.nbt.TagType;
-import org.popcraft.chunky.nbt.util.ChunkFilter;
-import org.popcraft.chunky.nbt.util.RegionFile;
-import org.popcraft.chunky.platform.Sender;
-import org.popcraft.chunky.platform.World;
-import org.popcraft.chunky.shape.Shape;
-import org.popcraft.chunky.shape.ShapeFactory;
-import org.popcraft.chunky.shape.ShapeType;
-import org.popcraft.chunky.util.ChunkCoordinate;
-import org.popcraft.chunky.util.Formatting;
-import org.popcraft.chunky.util.Input;
-import org.popcraft.chunky.util.TranslationKey;
+import com.ozel.haritayukleyici.Chunky;
+import com.ozel.haritayukleyici.Selection;
+import com.ozel.haritayukleyici.nbt.LongTag;
+import com.ozel.haritayukleyici.nbt.Tag;
+import com.ozel.haritayukleyici.nbt.TagType;
+import com.ozel.haritayukleyici.nbt.util.ChunkFilter;
+import com.ozel.haritayukleyici.nbt.util.RegionFile;
+import com.ozel.haritayukleyici.platform.Sender;
+import com.ozel.haritayukleyici.platform.World;
+import com.ozel.haritayukleyici.shape.Shape;
+import com.ozel.haritayukleyici.shape.ShapeFactory;
+import com.ozel.haritayukleyici.shape.ShapeType;
+import com.ozel.haritayukleyici.util.ChunkCoordinate;
+import com.ozel.haritayukleyici.util.Formatting;
+import com.ozel.haritayukleyici.util.Input;
+import com.ozel.haritayukleyici.util.TranslationKey;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
@@ -27,7 +27,7 @@ import java.util.Optional;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.stream.Stream;
 
-import static org.popcraft.chunky.util.Translator.translate;
+import static com.ozel.haritayukleyici.util.Translator.translate;
 
 public class TrimCommand implements ChunkyCommand {
     private final Chunky chunky;

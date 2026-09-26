@@ -1,4 +1,4 @@
-package org.popcraft.chunky.command.suggestion;
+package com.ozel.haritayukleyici.command.suggestion;
 
 import com.mojang.brigadier.suggestion.SuggestionProvider;
 import net.minecraft.commands.CommandSourceStack;

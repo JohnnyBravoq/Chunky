@@ -1,9 +1,9 @@
-package org.popcraft.chunky.platform;
+package com.ozel.haritayukleyici.platform;
 
 import org.bukkit.configuration.file.FileConfigurationOptions;
-import org.popcraft.chunky.ChunkyBukkit;
-import org.popcraft.chunky.util.Input;
-import org.popcraft.chunky.util.Translator;
+import com.ozel.haritayukleyici.ChunkyBukkit;
+import com.ozel.haritayukleyici.util.Input;
+import com.ozel.haritayukleyici.util.Translator;
 
 import java.lang.reflect.InvocationTargetException;
 import java.nio.file.Path;

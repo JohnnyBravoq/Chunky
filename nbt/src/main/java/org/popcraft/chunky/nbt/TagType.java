@@ -1,4 +1,4 @@
-package org.popcraft.chunky.nbt;
+package com.ozel.haritayukleyici.nbt;
 
 public final class TagType {
     public static final byte END = 0;

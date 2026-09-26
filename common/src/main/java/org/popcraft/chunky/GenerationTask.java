@@ -1,19 +1,19 @@
-package org.popcraft.chunky;
+package com.ozel.haritayukleyici;
 
-import org.popcraft.chunky.api.event.task.GenerationCompleteEvent;
-import org.popcraft.chunky.api.event.task.GenerationProgressEvent;
-import org.popcraft.chunky.event.task.GenerationTaskFinishEvent;
-import org.popcraft.chunky.event.task.GenerationTaskUpdateEvent;
-import org.popcraft.chunky.iterator.ChunkIterator;
-import org.popcraft.chunky.iterator.ChunkIteratorFactory;
-import org.popcraft.chunky.platform.Sender;
-import org.popcraft.chunky.shape.Shape;
-import org.popcraft.chunky.shape.ShapeFactory;
-import org.popcraft.chunky.util.ChunkCoordinate;
-import org.popcraft.chunky.util.Input;
-import org.popcraft.chunky.util.Pair;
-import org.popcraft.chunky.util.RegionCache;
-import org.popcraft.chunky.util.TranslationKey;
+import com.ozel.haritayukleyici.api.event.task.GenerationCompleteEvent;
+import com.ozel.haritayukleyici.api.event.task.GenerationProgressEvent;
+import com.ozel.haritayukleyici.event.task.GenerationTaskFinishEvent;
+import com.ozel.haritayukleyici.event.task.GenerationTaskUpdateEvent;
+import com.ozel.haritayukleyici.iterator.ChunkIterator;
+import com.ozel.haritayukleyici.iterator.ChunkIteratorFactory;
+import com.ozel.haritayukleyici.platform.Sender;
+import com.ozel.haritayukleyici.shape.Shape;
+import com.ozel.haritayukleyici.shape.ShapeFactory;
+import com.ozel.haritayukleyici.util.ChunkCoordinate;
+import com.ozel.haritayukleyici.util.Input;
+import com.ozel.haritayukleyici.util.Pair;
+import com.ozel.haritayukleyici.util.RegionCache;
+import com.ozel.haritayukleyici.util.TranslationKey;
 
 import java.util.Deque;
 import java.util.concurrent.CompletableFuture;

@@ -1,4 +1,4 @@
-package org.popcraft.chunky.platform.util;
+package com.ozel.haritayukleyici.platform.util;
 
 public class Vector3 {
     private double x;

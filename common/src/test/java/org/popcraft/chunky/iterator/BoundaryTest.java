@@ -1,8 +1,8 @@
-package org.popcraft.chunky.iterator;
+package com.ozel.haritayukleyici.iterator;
 
 import org.junit.Test;
-import org.popcraft.chunky.Selection;
-import org.popcraft.chunky.util.ChunkCoordinate;
+import com.ozel.haritayukleyici.Selection;
+import com.ozel.haritayukleyici.util.ChunkCoordinate;
 
 import java.util.ArrayList;
 import java.util.Collections;

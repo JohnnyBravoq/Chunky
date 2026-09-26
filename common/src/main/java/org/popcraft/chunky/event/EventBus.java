@@ -1,4 +1,4 @@
-package org.popcraft.chunky.event;
+package com.ozel.haritayukleyici.event;
 
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;

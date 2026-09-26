@@ -1,4 +1,4 @@
-package org.popcraft.chunky.shape;
+package com.ozel.haritayukleyici.shape;
 
 @FunctionalInterface
 public interface Shape {

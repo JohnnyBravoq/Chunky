@@ -1,4 +1,4 @@
-package org.popcraft.chunky.mixin;
+package com.ozel.haritayukleyici.mixin;
 
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.Entity;

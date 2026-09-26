@@ -1,7 +1,7 @@
-package org.popcraft.chunky.shape;
+package com.ozel.haritayukleyici.shape;
 
-import org.popcraft.chunky.Selection;
-import org.popcraft.chunky.util.Translator;
+import com.ozel.haritayukleyici.Selection;
+import com.ozel.haritayukleyici.util.Translator;
 
 import java.util.HashMap;
 import java.util.Map;

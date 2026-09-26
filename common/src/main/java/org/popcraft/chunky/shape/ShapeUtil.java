@@ -1,6 +1,6 @@
-package org.popcraft.chunky.shape;
+package com.ozel.haritayukleyici.shape;
 
-import org.popcraft.chunky.platform.util.Vector2;
+import com.ozel.haritayukleyici.platform.util.Vector2;
 
 import java.util.Optional;
 

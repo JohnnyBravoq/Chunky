@@ -1,7 +1,7 @@
-package org.popcraft.chunky.platform;
+package com.ozel.haritayukleyici.platform;
 
-import org.popcraft.chunky.ChunkySponge;
-import org.popcraft.chunky.integration.Integration;
+import com.ozel.haritayukleyici.ChunkySponge;
+import com.ozel.haritayukleyici.integration.Integration;
 import org.spongepowered.api.ResourceKey;
 
 import java.util.ArrayList;

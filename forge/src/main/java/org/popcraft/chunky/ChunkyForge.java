@@ -1,4 +1,4 @@
-package org.popcraft.chunky;
+package com.ozel.haritayukleyici;
 
 import com.mojang.brigadier.Command;
 import com.mojang.brigadier.builder.ArgumentBuilder;
@@ -16,19 +16,19 @@ import net.minecraftforge.event.server.ServerStoppingEvent;
 import net.minecraftforge.eventbus.api.listener.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.loading.FMLPaths;
-import org.popcraft.chunky.command.ChunkyCommand;
-import org.popcraft.chunky.command.CommandArguments;
-import org.popcraft.chunky.command.CommandLiteral;
-import org.popcraft.chunky.command.suggestion.SuggestionProviders;
-import org.popcraft.chunky.event.task.GenerationTaskFinishEvent;
-import org.popcraft.chunky.event.task.GenerationTaskUpdateEvent;
-import org.popcraft.chunky.listeners.bossbar.BossBarTaskFinishListener;
-import org.popcraft.chunky.listeners.bossbar.BossBarTaskUpdateListener;
-import org.popcraft.chunky.platform.ForgePlayer;
-import org.popcraft.chunky.platform.ForgeSender;
-import org.popcraft.chunky.platform.ForgeServer;
-import org.popcraft.chunky.platform.Sender;
-import org.popcraft.chunky.platform.impl.GsonConfig;
+import com.ozel.haritayukleyici.command.ChunkyCommand;
+import com.ozel.haritayukleyici.command.CommandArguments;
+import com.ozel.haritayukleyici.command.CommandLiteral;
+import com.ozel.haritayukleyici.command.suggestion.SuggestionProviders;
+import com.ozel.haritayukleyici.event.task.GenerationTaskFinishEvent;
+import com.ozel.haritayukleyici.event.task.GenerationTaskUpdateEvent;
+import com.ozel.haritayukleyici.listeners.bossbar.BossBarTaskFinishListener;
+import com.ozel.haritayukleyici.listeners.bossbar.BossBarTaskUpdateListener;
+import com.ozel.haritayukleyici.platform.ForgePlayer;
+import com.ozel.haritayukleyici.platform.ForgeSender;
+import com.ozel.haritayukleyici.platform.ForgeServer;
+import com.ozel.haritayukleyici.platform.Sender;
+import com.ozel.haritayukleyici.platform.impl.GsonConfig;
 
 import java.nio.file.Path;
 import java.util.Arrays;

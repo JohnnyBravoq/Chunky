@@ -1,10 +1,10 @@
-package org.popcraft.chunky.integration;
+package com.ozel.haritayukleyici.integration;
 
 import com.wimbli.WorldBorder.BorderData;
 import com.wimbli.WorldBorder.Config;
-import org.popcraft.chunky.platform.Border;
-import org.popcraft.chunky.platform.util.Vector2;
-import org.popcraft.chunky.shape.ShapeType;
+import com.ozel.haritayukleyici.platform.Border;
+import com.ozel.haritayukleyici.platform.util.Vector2;
+import com.ozel.haritayukleyici.shape.ShapeType;
 
 public class WorldBorderIntegration implements BorderIntegration {
     @Override

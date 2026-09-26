@@ -1,4 +1,4 @@
-package org.popcraft.chunky.util;
+package com.ozel.haritayukleyici.util;
 
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;

@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "org.popcraft.chunky.ChunkyFabric"
+      "com.ozel.haritayukleyici.ChunkyFabric"
     ]
   },
   "mixins": [

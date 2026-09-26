@@ -1,12 +1,12 @@
-package org.popcraft.chunky.command.suggestion;
+package com.ozel.haritayukleyici.command.suggestion;
 
 import com.mojang.brigadier.context.CommandContext;
 import com.mojang.brigadier.suggestion.SuggestionProvider;
 import com.mojang.brigadier.suggestion.Suggestions;
 import com.mojang.brigadier.suggestion.SuggestionsBuilder;
 import net.minecraft.commands.CommandSourceStack;
-import org.popcraft.chunky.command.CommandLiteral;
-import org.popcraft.chunky.shape.ShapeType;
+import com.ozel.haritayukleyici.command.CommandLiteral;
+import com.ozel.haritayukleyici.shape.ShapeType;
 
 import java.util.concurrent.CompletableFuture;
 

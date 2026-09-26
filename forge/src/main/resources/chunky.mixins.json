@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "org.popcraft.chunky.mixin",
+  "package": "com.ozel.haritayukleyici.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "ChunkMapMixin",

@@ -1,4 +1,4 @@
-package org.popcraft.chunky;
+package com.ozel.haritayukleyici;
 
 public final class ChunkyProvider {
     private static Chunky instance;

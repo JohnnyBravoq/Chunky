@@ -1,16 +1,16 @@
-package org.popcraft.chunky.command;
+package com.ozel.haritayukleyici.command;
 
-import org.popcraft.chunky.Chunky;
-import org.popcraft.chunky.Selection;
-import org.popcraft.chunky.integration.BorderIntegration;
-import org.popcraft.chunky.integration.Integration;
-import org.popcraft.chunky.platform.Border;
-import org.popcraft.chunky.platform.Sender;
-import org.popcraft.chunky.platform.World;
-import org.popcraft.chunky.platform.util.Vector2;
-import org.popcraft.chunky.util.Formatting;
-import org.popcraft.chunky.util.Input;
-import org.popcraft.chunky.util.TranslationKey;
+import com.ozel.haritayukleyici.Chunky;
+import com.ozel.haritayukleyici.Selection;
+import com.ozel.haritayukleyici.integration.BorderIntegration;
+import com.ozel.haritayukleyici.integration.Integration;
+import com.ozel.haritayukleyici.platform.Border;
+import com.ozel.haritayukleyici.platform.Sender;
+import com.ozel.haritayukleyici.platform.World;
+import com.ozel.haritayukleyici.platform.util.Vector2;
+import com.ozel.haritayukleyici.util.Formatting;
+import com.ozel.haritayukleyici.util.Input;
+import com.ozel.haritayukleyici.util.TranslationKey;
 
 import java.util.ArrayList;
 import java.util.List;

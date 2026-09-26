@@ -1,7 +1,7 @@
-package org.popcraft.chunky.mixin.client;
+package com.ozel.haritayukleyici.mixin.client;
 
 import net.minecraft.client.server.IntegratedServer;
-import org.popcraft.chunky.ducks.MinecraftServerExtension;
+import com.ozel.haritayukleyici.ducks.MinecraftServerExtension;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;

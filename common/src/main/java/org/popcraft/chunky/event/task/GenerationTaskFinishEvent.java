@@ -1,7 +1,7 @@
-package org.popcraft.chunky.event.task;
+package com.ozel.haritayukleyici.event.task;
 
-import org.popcraft.chunky.GenerationTask;
-import org.popcraft.chunky.event.Event;
+import com.ozel.haritayukleyici.GenerationTask;
+import com.ozel.haritayukleyici.event.Event;
 
 public record GenerationTaskFinishEvent(GenerationTask generationTask) implements Event {
 }

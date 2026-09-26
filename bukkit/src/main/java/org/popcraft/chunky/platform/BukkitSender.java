@@ -1,15 +1,15 @@
-package org.popcraft.chunky.platform;
+package com.ozel.haritayukleyici.platform;
 
 import net.md_5.bungee.api.ChatColor;
 import org.bukkit.Bukkit;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.popcraft.chunky.platform.util.Location;
+import com.ozel.haritayukleyici.platform.util.Location;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static org.popcraft.chunky.util.Translator.translateKey;
+import static com.ozel.haritayukleyici.util.Translator.translateKey;
 
 public class BukkitSender implements Sender {
     private static final Pattern RGB_PATTERN = Pattern.compile("&#[0-9a-fA-F]{6}");

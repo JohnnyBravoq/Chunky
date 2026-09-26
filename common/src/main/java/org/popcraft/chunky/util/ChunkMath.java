@@ -1,4 +1,4 @@
-package org.popcraft.chunky.util;
+package com.ozel.haritayukleyici.util;
 
 public final class ChunkMath {
     private ChunkMath() {

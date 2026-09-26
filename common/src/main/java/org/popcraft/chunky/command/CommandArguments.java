@@ -1,4 +1,4 @@
-package org.popcraft.chunky.command;
+package com.ozel.haritayukleyici.command;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

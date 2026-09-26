@@ -1,11 +1,11 @@
-package org.popcraft.chunky.mixin;
+package com.ozel.haritayukleyici.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.util.profiling.InactiveProfiler;
-import org.popcraft.chunky.ChunkyFabric;
-import org.popcraft.chunky.ChunkyProvider;
-import org.popcraft.chunky.ducks.MinecraftServerExtension;
+import com.ozel.haritayukleyici.ChunkyFabric;
+import com.ozel.haritayukleyici.ChunkyProvider;
+import com.ozel.haritayukleyici.ducks.MinecraftServerExtension;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.Unique;

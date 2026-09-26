@@ -1,6 +1,6 @@
-package org.popcraft.chunky.platform.util;
+package com.ozel.haritayukleyici.platform.util;
 
-import org.popcraft.chunky.platform.World;
+import com.ozel.haritayukleyici.platform.World;
 
 public class Location {
     private World world;

@@ -1,6 +1,6 @@
-package org.popcraft.chunky.command.suggestion;
+package com.ozel.haritayukleyici.command.suggestion;
 
-import org.popcraft.chunky.iterator.PatternType;
+import com.ozel.haritayukleyici.iterator.PatternType;
 import org.spongepowered.api.command.CommandCompletion;
 import org.spongepowered.api.command.parameter.CommandContext;
 import org.spongepowered.api.command.parameter.managed.ValueCompleter;

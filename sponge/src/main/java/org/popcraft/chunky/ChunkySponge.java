@@ -1,13 +1,13 @@
-package org.popcraft.chunky;
+package com.ozel.haritayukleyici;
 
 import com.google.inject.Inject;
 import org.apache.logging.log4j.Logger;
-import org.popcraft.chunky.command.CommandArguments;
-import org.popcraft.chunky.command.CommandLiteral;
-import org.popcraft.chunky.command.suggestion.SuggestionProviders;
-import org.popcraft.chunky.platform.SpongeConfig;
-import org.popcraft.chunky.platform.SpongeSender;
-import org.popcraft.chunky.platform.SpongeServer;
+import com.ozel.haritayukleyici.command.CommandArguments;
+import com.ozel.haritayukleyici.command.CommandLiteral;
+import com.ozel.haritayukleyici.command.suggestion.SuggestionProviders;
+import com.ozel.haritayukleyici.platform.SpongeConfig;
+import com.ozel.haritayukleyici.platform.SpongeSender;
+import com.ozel.haritayukleyici.platform.SpongeServer;
 import org.spongepowered.api.Game;
 import org.spongepowered.api.ResourceKey;
 import org.spongepowered.api.Server;

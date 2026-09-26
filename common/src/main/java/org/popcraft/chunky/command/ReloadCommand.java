@@ -1,10 +1,10 @@
-package org.popcraft.chunky.command;
+package com.ozel.haritayukleyici.command;
 
-import org.popcraft.chunky.Chunky;
-import org.popcraft.chunky.event.command.ReloadCommandEvent;
-import org.popcraft.chunky.platform.Config;
-import org.popcraft.chunky.platform.Sender;
-import org.popcraft.chunky.util.TranslationKey;
+import com.ozel.haritayukleyici.Chunky;
+import com.ozel.haritayukleyici.event.command.ReloadCommandEvent;
+import com.ozel.haritayukleyici.platform.Config;
+import com.ozel.haritayukleyici.platform.Sender;
+import com.ozel.haritayukleyici.util.TranslationKey;
 
 import java.util.List;
 

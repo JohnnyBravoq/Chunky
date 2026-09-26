@@ -1,105 +1,105 @@
 name: ${name}
 version: ${version}
-main: ${group}.chunky.ChunkyBukkit
+main: ${group}.haritayukle.haritayukleBukkit
 api-version: 1.13
 folia-supported: true
 softdepend: [dynmap, BlueMap, squaremap, WorldBorder]
 load: POSTWORLD
 authors: [${author}]
 description: ${description}
-website: https://www.spigotmc.org/resources/chunky.81534/
+website: https://www.spigotmc.org/resources/haritayukle.81534/
 commands:
-  chunky:
+  haritayukle:
     description: Generates chunks
     aliases: [cy]
-    permission: chunky.command
-    usage: /chunky
+    permission: haritayukle.command
+    usage: /haritayukle
 permissions:
-  chunky.command:
+  haritayukle.command:
     default: op
-  chunky.command.border:
+  haritayukle.command.border:
     default: op
-    children: [chunky.command]
-  chunky.command.cancel:
+    children: [haritayukle.command]
+  haritayukle.command.cancel:
     default: op
-    children: [chunky.command]
-  chunky.command.center:
+    children: [haritayukle.command]
+  haritayukle.command.center:
     default: op
-    children: [chunky.command]
-  chunky.command.confirm:
+    children: [haritayukle.command]
+  haritayukle.command.confirm:
     default: op
-    children: [chunky.command]
-  chunky.command.continue:
+    children: [haritayukle.command]
+  haritayukle.command.continue:
     default: op
-    children: [chunky.command]
-  chunky.command.corners:
+    children: [haritayukle.command]
+  haritayukle.command.corners:
     default: op
-    children: [chunky.command]
-  chunky.command.help:
+    children: [haritayukle.command]
+  haritayukle.command.help:
     default: op
-    children: [chunky.command]
-  chunky.command.pattern:
+    children: [haritayukle.command]
+  haritayukle.command.pattern:
     default: op
-    children: [chunky.command]
-  chunky.command.pause:
+    children: [haritayukle.command]
+  haritayukle.command.pause:
     default: op
-    children: [chunky.command]
-  chunky.command.progress:
+    children: [haritayukle.command]
+  haritayukle.command.progress:
     default: op
-    children: [chunky.command]
-  chunky.command.quiet:
+    children: [haritayukle.command]
+  haritayukle.command.quiet:
     default: op
-    children: [chunky.command]
-  chunky.command.radius:
+    children: [haritayukle.command]
+  haritayukle.command.radius:
     default: op
-    children: [chunky.command]
-  chunky.command.reload:
+    children: [haritayukle.command]
+  haritayukle.command.reload:
     default: op
-    children: [chunky.command]
-  chunky.command.selection:
+    children: [haritayukle.command]
+  haritayukle.command.selection:
     default: op
-    children: [chunky.command]
-  chunky.command.shape:
+    children: [haritayukle.command]
+  haritayukle.command.shape:
     default: op
-    children: [chunky.command]
-  chunky.command.silent:
+    children: [haritayukle.command]
+  haritayukle.command.silent:
     default: op
-    children: [chunky.command]
-  chunky.command.spawn:
+    children: [haritayukle.command]
+  haritayukle.command.spawn:
     default: op
-    children: [chunky.command]
-  chunky.command.start:
+    children: [haritayukle.command]
+  haritayukle.command.start:
     default: op
-    children: [chunky.command]
-  chunky.command.trim:
+    children: [haritayukle.command]
+  haritayukle.command.trim:
     default: op
-    children: [chunky.command]
-  chunky.command.worldborder:
+    children: [haritayukle.command]
+  haritayukle.command.worldborder:
     default: op
-    children: [chunky.command]
-  chunky.command.world:
+    children: [haritayukle.command]
+  haritayukle.command.world:
     default: op
-    children: [chunky.command]
-  chunky.chunky:
+    children: [haritayukle.command]
+  haritayukle.haritayukle:
     default: false
     children:
-      - chunky.command
-      - chunky.command.cancel
-      - chunky.command.center
-      - chunky.command.confirm
-      - chunky.command.continue
-      - chunky.command.corners
-      - chunky.command.help
-      - chunky.command.pattern
-      - chunky.command.pause
-      - chunky.command.progress
-      - chunky.command.quiet
-      - chunky.command.radius
-      - chunky.command.reload
-      - chunky.command.selection
-      - chunky.command.shape
-      - chunky.command.silent
-      - chunky.command.spawn
-      - chunky.command.start
-      - chunky.command.worldborder
-      - chunky.command.world
+      - haritayukle.command
+      - haritayukle.command.cancel
+      - haritayukle.command.center
+      - haritayukle.command.confirm
+      - haritayukle.command.continue
+      - haritayukle.command.corners
+      - haritayukle.command.help
+      - haritayukle.command.pattern
+      - haritayukle.command.pause
+      - haritayukle.command.progress
+      - haritayukle.command.quiet
+      - haritayukle.command.radius
+      - haritayukle.command.reload
+      - haritayukle.command.selection
+      - haritayukle.command.shape
+      - haritayukle.command.silent
+      - haritayukle.command.spawn
+      - haritayukle.command.start
+      - haritayukle.command.worldborder
+      - haritayukle.command.world

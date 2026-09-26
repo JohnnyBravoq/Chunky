@@ -1,12 +1,12 @@
-package org.popcraft.chunky.command;
+package com.ozel.haritayukleyici.command;
 
-import org.popcraft.chunky.Chunky;
-import org.popcraft.chunky.platform.Sender;
-import org.popcraft.chunky.util.TranslationKey;
+import com.ozel.haritayukleyici.Chunky;
+import com.ozel.haritayukleyici.platform.Sender;
+import com.ozel.haritayukleyici.util.TranslationKey;
 
 import java.util.List;
 
-import static org.popcraft.chunky.util.Translator.translate;
+import static com.ozel.haritayukleyici.util.Translator.translate;
 
 public class SilentCommand implements ChunkyCommand {
     private final Chunky chunky;

@@ -1,11 +1,11 @@
-package org.popcraft.chunky.command;
+package com.ozel.haritayukleyici.command;
 
-import org.popcraft.chunky.Chunky;
-import org.popcraft.chunky.platform.Player;
-import org.popcraft.chunky.platform.Sender;
-import org.popcraft.chunky.platform.World;
-import org.popcraft.chunky.util.Input;
-import org.popcraft.chunky.util.TranslationKey;
+import com.ozel.haritayukleyici.Chunky;
+import com.ozel.haritayukleyici.platform.Player;
+import com.ozel.haritayukleyici.platform.Sender;
+import com.ozel.haritayukleyici.platform.World;
+import com.ozel.haritayukleyici.util.Input;
+import com.ozel.haritayukleyici.util.TranslationKey;
 
 import java.util.ArrayList;
 import java.util.List;

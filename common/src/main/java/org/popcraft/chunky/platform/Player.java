@@ -1,6 +1,6 @@
-package org.popcraft.chunky.platform;
+package com.ozel.haritayukleyici.platform;
 
-import org.popcraft.chunky.platform.util.Location;
+import com.ozel.haritayukleyici.platform.util.Location;
 
 import java.util.UUID;
 

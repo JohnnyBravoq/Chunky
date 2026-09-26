@@ -1,7 +1,7 @@
-package org.popcraft.chunky.platform;
+package com.ozel.haritayukleyici.platform;
 
 import net.kyori.adventure.text.serializer.legacy.LegacyComponentSerializer;
-import org.popcraft.chunky.platform.util.Location;
+import com.ozel.haritayukleyici.platform.util.Location;
 import org.spongepowered.api.entity.living.player.server.ServerPlayer;
 import org.spongepowered.api.world.server.ServerLocation;
 import org.spongepowered.math.vector.Vector3d;
@@ -9,7 +9,7 @@ import org.spongepowered.math.vector.Vector3f;
 
 import java.util.UUID;
 
-import static org.popcraft.chunky.util.Translator.translateKey;
+import static com.ozel.haritayukleyici.util.Translator.translateKey;
 
 public class SpongePlayer extends SpongeSender implements Player {
     private final ServerPlayer player;

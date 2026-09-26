@@ -1,4 +1,4 @@
-package org.popcraft.chunky.mixin;
+package com.ozel.haritayukleyici.mixin;
 
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.server.level.ChunkHolder;

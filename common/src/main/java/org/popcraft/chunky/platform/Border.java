@@ -1,6 +1,6 @@
-package org.popcraft.chunky.platform;
+package com.ozel.haritayukleyici.platform;
 
-import org.popcraft.chunky.platform.util.Vector2;
+import com.ozel.haritayukleyici.platform.util.Vector2;
 
 public interface Border {
     Vector2 getCenter();

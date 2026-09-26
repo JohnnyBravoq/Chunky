@@ -1,9 +1,9 @@
-package org.popcraft.chunky.util;
+package com.ozel.haritayukleyici.util;
 
-import org.popcraft.chunky.Chunky;
-import org.popcraft.chunky.iterator.PatternType;
-import org.popcraft.chunky.platform.World;
-import org.popcraft.chunky.shape.ShapeType;
+import com.ozel.haritayukleyici.Chunky;
+import com.ozel.haritayukleyici.iterator.PatternType;
+import com.ozel.haritayukleyici.platform.World;
+import com.ozel.haritayukleyici.shape.ShapeType;
 
 import java.util.Optional;
 

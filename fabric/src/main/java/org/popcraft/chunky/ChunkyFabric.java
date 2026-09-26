@@ -1,4 +1,4 @@
-package org.popcraft.chunky;
+package com.ozel.haritayukleyici;
 
 import com.mojang.brigadier.Command;
 import com.mojang.brigadier.builder.ArgumentBuilder;
@@ -12,19 +12,19 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerBossEvent;
 import net.minecraft.server.level.ServerPlayer;
-import org.popcraft.chunky.command.ChunkyCommand;
-import org.popcraft.chunky.command.CommandArguments;
-import org.popcraft.chunky.command.CommandLiteral;
-import org.popcraft.chunky.command.suggestion.SuggestionProviders;
-import org.popcraft.chunky.event.task.GenerationTaskFinishEvent;
-import org.popcraft.chunky.event.task.GenerationTaskUpdateEvent;
-import org.popcraft.chunky.listeners.bossbar.BossBarTaskFinishListener;
-import org.popcraft.chunky.listeners.bossbar.BossBarTaskUpdateListener;
-import org.popcraft.chunky.platform.FabricPlayer;
-import org.popcraft.chunky.platform.FabricSender;
-import org.popcraft.chunky.platform.FabricServer;
-import org.popcraft.chunky.platform.Sender;
-import org.popcraft.chunky.platform.impl.GsonConfig;
+import com.ozel.haritayukleyici.command.ChunkyCommand;
+import com.ozel.haritayukleyici.command.CommandArguments;
+import com.ozel.haritayukleyici.command.CommandLiteral;
+import com.ozel.haritayukleyici.command.suggestion.SuggestionProviders;
+import com.ozel.haritayukleyici.event.task.GenerationTaskFinishEvent;
+import com.ozel.haritayukleyici.event.task.GenerationTaskUpdateEvent;
+import com.ozel.haritayukleyici.listeners.bossbar.BossBarTaskFinishListener;
+import com.ozel.haritayukleyici.listeners.bossbar.BossBarTaskUpdateListener;
+import com.ozel.haritayukleyici.platform.FabricPlayer;
+import com.ozel.haritayukleyici.platform.FabricSender;
+import com.ozel.haritayukleyici.platform.FabricServer;
+import com.ozel.haritayukleyici.platform.Sender;
+import com.ozel.haritayukleyici.platform.impl.GsonConfig;
 
 import java.nio.file.Path;
 import java.util.Arrays;

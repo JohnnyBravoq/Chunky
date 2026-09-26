@@ -1,8 +1,8 @@
-package org.popcraft.chunky.platform;
+package com.ozel.haritayukleyici.platform;
 
-import org.popcraft.chunky.ChunkySponge;
-import org.popcraft.chunky.util.Input;
-import org.popcraft.chunky.util.Translator;
+import com.ozel.haritayukleyici.ChunkySponge;
+import com.ozel.haritayukleyici.util.Input;
+import com.ozel.haritayukleyici.util.Translator;
 import org.spongepowered.configurate.CommentedConfigurationNode;
 import org.spongepowered.configurate.hocon.HoconConfigurationLoader;
 import org.spongepowered.configurate.serialize.SerializationException;

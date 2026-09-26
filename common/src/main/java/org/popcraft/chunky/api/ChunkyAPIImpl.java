@@ -1,13 +1,13 @@
-package org.popcraft.chunky.api;
+package com.ozel.haritayukleyici.api;
 
-import org.popcraft.chunky.Chunky;
-import org.popcraft.chunky.GenerationTask;
-import org.popcraft.chunky.Selection;
-import org.popcraft.chunky.api.event.task.GenerationCompleteEvent;
-import org.popcraft.chunky.api.event.task.GenerationProgressEvent;
-import org.popcraft.chunky.platform.World;
-import org.popcraft.chunky.util.Input;
-import org.popcraft.chunky.util.Parameter;
+import com.ozel.haritayukleyici.Chunky;
+import com.ozel.haritayukleyici.GenerationTask;
+import com.ozel.haritayukleyici.Selection;
+import com.ozel.haritayukleyici.api.event.task.GenerationCompleteEvent;
+import com.ozel.haritayukleyici.api.event.task.GenerationProgressEvent;
+import com.ozel.haritayukleyici.platform.World;
+import com.ozel.haritayukleyici.util.Input;
+import com.ozel.haritayukleyici.util.Parameter;
 
 import java.util.function.Consumer;
 

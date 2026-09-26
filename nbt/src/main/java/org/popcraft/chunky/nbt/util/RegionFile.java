@@ -1,6 +1,6 @@
-package org.popcraft.chunky.nbt.util;
+package com.ozel.haritayukleyici.nbt.util;
 
-import org.popcraft.chunky.nbt.Tag;
+import com.ozel.haritayukleyici.nbt.Tag;
 
 import java.io.BufferedInputStream;
 import java.io.ByteArrayInputStream;

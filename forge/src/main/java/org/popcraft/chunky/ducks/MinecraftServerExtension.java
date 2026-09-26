@@ -1,4 +1,4 @@
-package org.popcraft.chunky.ducks;
+package com.ozel.haritayukleyici.ducks;
 
 import java.util.function.BooleanSupplier;
 

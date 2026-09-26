@@ -1,4 +1,4 @@
-package org.popcraft.chunky.mixin;
+package com.ozel.haritayukleyici.mixin;
 
 import net.minecraft.server.level.ChunkResult;
 import net.minecraft.server.level.ServerChunkCache;

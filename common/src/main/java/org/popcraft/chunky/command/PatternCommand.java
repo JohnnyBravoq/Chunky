@@ -1,16 +1,16 @@
-package org.popcraft.chunky.command;
+package com.ozel.haritayukleyici.command;
 
-import org.popcraft.chunky.Chunky;
-import org.popcraft.chunky.iterator.PatternType;
-import org.popcraft.chunky.platform.Sender;
-import org.popcraft.chunky.util.Input;
-import org.popcraft.chunky.util.Parameter;
-import org.popcraft.chunky.util.TranslationKey;
+import com.ozel.haritayukleyici.Chunky;
+import com.ozel.haritayukleyici.iterator.PatternType;
+import com.ozel.haritayukleyici.platform.Sender;
+import com.ozel.haritayukleyici.util.Input;
+import com.ozel.haritayukleyici.util.Parameter;
+import com.ozel.haritayukleyici.util.TranslationKey;
 
 import java.util.List;
 import java.util.Optional;
 
-import static org.popcraft.chunky.util.Translator.translate;
+import static com.ozel.haritayukleyici.util.Translator.translate;
 
 public class PatternCommand implements ChunkyCommand {
     private final Chunky chunky;

@@ -1,10 +1,10 @@
-package org.popcraft.chunky.shape;
+package com.ozel.haritayukleyici.shape;
 
 import org.junit.Test;
-import org.popcraft.chunky.Selection;
-import org.popcraft.chunky.iterator.ChunkIterator;
-import org.popcraft.chunky.iterator.ChunkIteratorFactory;
-import org.popcraft.chunky.util.ChunkCoordinate;
+import com.ozel.haritayukleyici.Selection;
+import com.ozel.haritayukleyici.iterator.ChunkIterator;
+import com.ozel.haritayukleyici.iterator.ChunkIteratorFactory;
+import com.ozel.haritayukleyici.util.ChunkCoordinate;
 
 import static org.junit.Assert.assertEquals;
 

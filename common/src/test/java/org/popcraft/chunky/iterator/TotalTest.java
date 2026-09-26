@@ -1,7 +1,7 @@
-package org.popcraft.chunky.iterator;
+package com.ozel.haritayukleyici.iterator;
 
 import org.junit.Test;
-import org.popcraft.chunky.Selection;
+import com.ozel.haritayukleyici.Selection;
 
 import static org.junit.Assert.assertEquals;
 

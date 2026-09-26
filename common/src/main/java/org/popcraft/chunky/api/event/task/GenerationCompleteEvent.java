@@ -1,6 +1,6 @@
-package org.popcraft.chunky.api.event.task;
+package com.ozel.haritayukleyici.api.event.task;
 
-import org.popcraft.chunky.event.Event;
+import com.ozel.haritayukleyici.event.Event;
 
 /**
  * Event which is fired when a generation task completes.

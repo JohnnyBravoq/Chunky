@@ -1,4 +1,4 @@
-package org.popcraft.chunky.platform;
+package com.ozel.haritayukleyici.platform;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
@@ -6,8 +6,8 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.ServerInterface;
 import net.minecraft.server.level.ServerLevel;
-import org.popcraft.chunky.ChunkyForge;
-import org.popcraft.chunky.integration.Integration;
+import com.ozel.haritayukleyici.ChunkyForge;
+import com.ozel.haritayukleyici.integration.Integration;
 
 import java.util.ArrayList;
 import java.util.Collection;

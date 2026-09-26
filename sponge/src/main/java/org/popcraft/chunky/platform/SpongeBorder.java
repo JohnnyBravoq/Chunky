@@ -1,7 +1,7 @@
-package org.popcraft.chunky.platform;
+package com.ozel.haritayukleyici.platform;
 
-import org.popcraft.chunky.platform.util.Vector2;
-import org.popcraft.chunky.shape.ShapeType;
+import com.ozel.haritayukleyici.platform.util.Vector2;
+import com.ozel.haritayukleyici.shape.ShapeType;
 import org.spongepowered.api.world.server.ServerWorld;
 import org.spongepowered.math.vector.Vector2d;
 

@@ -1,10 +1,10 @@
-package org.popcraft.chunky.platform.impl;
+package com.ozel.haritayukleyici.platform.impl;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import org.popcraft.chunky.platform.Config;
-import org.popcraft.chunky.util.Input;
-import org.popcraft.chunky.util.Translator;
+import com.ozel.haritayukleyici.platform.Config;
+import com.ozel.haritayukleyici.util.Input;
+import com.ozel.haritayukleyici.util.Translator;
 
 import java.io.IOException;
 import java.io.Reader;

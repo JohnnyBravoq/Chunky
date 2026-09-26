@@ -1,7 +1,7 @@
-package org.popcraft.chunky.iterator;
+package com.ozel.haritayukleyici.iterator;
 
-import org.popcraft.chunky.Selection;
-import org.popcraft.chunky.shape.ShapeType;
+import com.ozel.haritayukleyici.Selection;
+import com.ozel.haritayukleyici.shape.ShapeType;
 
 public final class ChunkIteratorFactory {
     private ChunkIteratorFactory() {

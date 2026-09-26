@@ -1,4 +1,4 @@
-package org.popcraft.chunky.platform;
+package com.ozel.haritayukleyici.platform;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -20,13 +20,13 @@ import net.minecraft.world.level.chunk.status.ChunkStatus;
 import net.minecraft.world.level.dimension.DimensionType;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.storage.LevelResource;
-import org.popcraft.chunky.ChunkyFabric;
-import org.popcraft.chunky.ducks.MinecraftServerExtension;
-import org.popcraft.chunky.mixin.ChunkMapMixin;
-import org.popcraft.chunky.mixin.MinecraftServerAccess;
-import org.popcraft.chunky.mixin.ServerChunkCacheMixin;
-import org.popcraft.chunky.platform.util.Location;
-import org.popcraft.chunky.util.Input;
+import com.ozel.haritayukleyici.ChunkyFabric;
+import com.ozel.haritayukleyici.ducks.MinecraftServerExtension;
+import com.ozel.haritayukleyici.mixin.ChunkMapMixin;
+import com.ozel.haritayukleyici.mixin.MinecraftServerAccess;
+import com.ozel.haritayukleyici.mixin.ServerChunkCacheMixin;
+import com.ozel.haritayukleyici.platform.util.Location;
+import com.ozel.haritayukleyici.util.Input;
 
 import java.nio.file.Files;
 import java.nio.file.Path;

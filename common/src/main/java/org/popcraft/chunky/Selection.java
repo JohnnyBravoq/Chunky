@@ -1,12 +1,12 @@
-package org.popcraft.chunky;
+package com.ozel.haritayukleyici;
 
-import org.popcraft.chunky.iterator.PatternType;
-import org.popcraft.chunky.platform.Border;
-import org.popcraft.chunky.platform.World;
-import org.popcraft.chunky.platform.util.Location;
-import org.popcraft.chunky.platform.util.Vector2;
-import org.popcraft.chunky.shape.ShapeType;
-import org.popcraft.chunky.util.Parameter;
+import com.ozel.haritayukleyici.iterator.PatternType;
+import com.ozel.haritayukleyici.platform.Border;
+import com.ozel.haritayukleyici.platform.World;
+import com.ozel.haritayukleyici.platform.util.Location;
+import com.ozel.haritayukleyici.platform.util.Vector2;
+import com.ozel.haritayukleyici.shape.ShapeType;
+import com.ozel.haritayukleyici.util.Parameter;
 
 @SuppressWarnings("unused")
 public final class Selection {

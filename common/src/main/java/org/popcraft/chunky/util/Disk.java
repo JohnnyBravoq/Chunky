@@ -1,7 +1,7 @@
-package org.popcraft.chunky.util;
+package com.ozel.haritayukleyici.util;
 
-import org.popcraft.chunky.Selection;
-import org.popcraft.chunky.platform.World;
+import com.ozel.haritayukleyici.Selection;
+import com.ozel.haritayukleyici.platform.World;
 
 import java.nio.file.Files;
 import java.nio.file.InvalidPathException;

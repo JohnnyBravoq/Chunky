@@ -1,7 +1,7 @@
-package org.popcraft.chunky.api;
+package com.ozel.haritayukleyici.api;
 
-import org.popcraft.chunky.api.event.task.GenerationCompleteEvent;
-import org.popcraft.chunky.api.event.task.GenerationProgressEvent;
+import com.ozel.haritayukleyici.api.event.task.GenerationCompleteEvent;
+import com.ozel.haritayukleyici.api.event.task.GenerationProgressEvent;
 
 import java.util.function.Consumer;
 

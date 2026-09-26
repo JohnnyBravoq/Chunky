@@ -1,4 +1,4 @@
-package org.popcraft.chunky.mixin;
+package com.ozel.haritayukleyici.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

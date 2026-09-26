@@ -1,14 +1,14 @@
-package org.popcraft.chunky.command;
+package com.ozel.haritayukleyici.command;
 
-import org.popcraft.chunky.Chunky;
-import org.popcraft.chunky.platform.Sender;
-import org.popcraft.chunky.util.Input;
-import org.popcraft.chunky.util.TranslationKey;
+import com.ozel.haritayukleyici.Chunky;
+import com.ozel.haritayukleyici.platform.Sender;
+import com.ozel.haritayukleyici.util.Input;
+import com.ozel.haritayukleyici.util.TranslationKey;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.popcraft.chunky.util.Translator.translate;
+import static com.ozel.haritayukleyici.util.Translator.translate;
 
 public class HelpCommand implements ChunkyCommand {
     private final Chunky chunky;

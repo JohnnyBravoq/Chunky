@@ -1,7 +1,7 @@
-package org.popcraft.chunky.platform;
+package com.ozel.haritayukleyici.platform;
 
-import org.popcraft.chunky.ChunkyBukkit;
-import org.popcraft.chunky.integration.Integration;
+import com.ozel.haritayukleyici.ChunkyBukkit;
+import com.ozel.haritayukleyici.integration.Integration;
 
 import java.util.ArrayList;
 import java.util.Collection;

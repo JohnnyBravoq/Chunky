@@ -1,9 +1,9 @@
-package org.popcraft.chunky.platform;
+package com.ozel.haritayukleyici.platform;
 
 import net.kyori.adventure.audience.Audience;
 import net.kyori.adventure.identity.Identity;
 import net.kyori.adventure.text.serializer.legacy.LegacyComponentSerializer;
-import org.popcraft.chunky.platform.util.Location;
+import com.ozel.haritayukleyici.platform.util.Location;
 import org.spongepowered.api.Sponge;
 import org.spongepowered.api.entity.living.player.Player;
 import org.spongepowered.api.entity.living.player.User;
@@ -11,7 +11,7 @@ import org.spongepowered.api.service.permission.Subject;
 import org.spongepowered.api.world.DefaultWorldKeys;
 import org.spongepowered.api.world.server.WorldManager;
 
-import static org.popcraft.chunky.util.Translator.translateKey;
+import static com.ozel.haritayukleyici.util.Translator.translateKey;
 
 public class SpongeSender implements Sender {
     private final Object source;

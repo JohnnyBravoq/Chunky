@@ -1,9 +1,9 @@
-package org.popcraft.chunky.util;
+package com.ozel.haritayukleyici.util;
 
 import org.junit.Test;
 
-import static org.popcraft.chunky.util.Translator.setLanguage;
-import static org.popcraft.chunky.util.Translator.translate;
+import static com.ozel.haritayukleyici.util.Translator.setLanguage;
+import static com.ozel.haritayukleyici.util.Translator.translate;
 
 /**
  * This test checks that each translation in every language is parsed without errors.

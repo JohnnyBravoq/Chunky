@@ -1,4 +1,4 @@
-package org.popcraft.chunky.platform;
+package com.ozel.haritayukleyici.platform;
 
 import org.bukkit.Chunk;
 import org.bukkit.Effect;
@@ -7,9 +7,9 @@ import org.bukkit.Sound;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.popcraft.chunky.ChunkyBukkit;
-import org.popcraft.chunky.platform.util.Location;
-import org.popcraft.chunky.util.Input;
+import com.ozel.haritayukleyici.ChunkyBukkit;
+import com.ozel.haritayukleyici.platform.util.Location;
+import com.ozel.haritayukleyici.util.Input;
 
 import java.nio.file.Files;
 import java.nio.file.Path;

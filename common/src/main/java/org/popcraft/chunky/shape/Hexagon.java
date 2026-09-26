@@ -1,12 +1,12 @@
-package org.popcraft.chunky.shape;
+package com.ozel.haritayukleyici.shape;
 
-import org.popcraft.chunky.Selection;
-import org.popcraft.chunky.platform.util.Vector2;
+import com.ozel.haritayukleyici.Selection;
+import com.ozel.haritayukleyici.platform.util.Vector2;
 
 import java.util.Arrays;
 import java.util.List;
 
-import static org.popcraft.chunky.shape.ShapeUtil.insideLine;
+import static com.ozel.haritayukleyici.shape.ShapeUtil.insideLine;
 
 public class Hexagon extends AbstractPolygon {
     private final double p1x, p1z, p2x, p2z, p3x, p3z, p4x, p4z, p5x, p5z, p6x, p6z;

@@ -1,4 +1,4 @@
-package org.popcraft.chunky.listeners.bossbar;
+package com.ozel.haritayukleyici.listeners.bossbar;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
@@ -8,11 +8,11 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.permissions.Permissions;
 import net.minecraft.world.BossEvent;
 import net.minecraft.world.level.Level;
-import org.popcraft.chunky.Chunky;
-import org.popcraft.chunky.GenerationTask;
-import org.popcraft.chunky.event.task.GenerationTaskUpdateEvent;
-import org.popcraft.chunky.platform.FabricWorld;
-import org.popcraft.chunky.platform.World;
+import com.ozel.haritayukleyici.Chunky;
+import com.ozel.haritayukleyici.GenerationTask;
+import com.ozel.haritayukleyici.event.task.GenerationTaskUpdateEvent;
+import com.ozel.haritayukleyici.platform.FabricWorld;
+import com.ozel.haritayukleyici.platform.World;
 
 import java.util.Map;
 import java.util.UUID;

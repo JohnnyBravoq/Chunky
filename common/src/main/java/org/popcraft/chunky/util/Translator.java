@@ -1,4 +1,4 @@
-package org.popcraft.chunky.util;
+package com.ozel.haritayukleyici.util;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;

@@ -1,4 +1,4 @@
-package org.popcraft.chunky.command.suggestion;
+package com.ozel.haritayukleyici.command.suggestion;
 
 public final class SuggestionProviders {
     public static final PatternSuggestionProvider PATTERNS;

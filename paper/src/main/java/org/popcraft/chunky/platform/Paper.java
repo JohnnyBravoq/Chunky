@@ -1,4 +1,4 @@
-package org.popcraft.chunky.platform;
+package com.ozel.haritayukleyici.platform;
 
 import io.papermc.paper.entity.TeleportFlag;
 import org.bukkit.Chunk;

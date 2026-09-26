@@ -1,4 +1,4 @@
-package org.popcraft.chunky;
+package com.ozel.haritayukleyici;
 
 import org.bstats.bukkit.Metrics;
 import org.bstats.charts.SimplePie;
@@ -13,21 +13,21 @@ import org.bukkit.event.world.WorldInitEvent;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.ServicePriority;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.popcraft.chunky.api.ChunkyAPI;
-import org.popcraft.chunky.command.ChunkyCommand;
-import org.popcraft.chunky.command.CommandArguments;
-import org.popcraft.chunky.command.CommandLiteral;
-import org.popcraft.chunky.integration.WorldBorderIntegration;
-import org.popcraft.chunky.platform.BukkitConfig;
-import org.popcraft.chunky.platform.BukkitPlayer;
-import org.popcraft.chunky.platform.BukkitSender;
-import org.popcraft.chunky.platform.BukkitServer;
-import org.popcraft.chunky.platform.Folia;
-import org.popcraft.chunky.platform.Paper;
-import org.popcraft.chunky.platform.Sender;
-import org.popcraft.chunky.util.Input;
-import org.popcraft.chunky.util.TranslationKey;
-import org.popcraft.chunky.util.Version;
+import com.ozel.haritayukleyici.api.ChunkyAPI;
+import com.ozel.haritayukleyici.command.ChunkyCommand;
+import com.ozel.haritayukleyici.command.CommandArguments;
+import com.ozel.haritayukleyici.command.CommandLiteral;
+import com.ozel.haritayukleyici.integration.WorldBorderIntegration;
+import com.ozel.haritayukleyici.platform.BukkitConfig;
+import com.ozel.haritayukleyici.platform.BukkitPlayer;
+import com.ozel.haritayukleyici.platform.BukkitSender;
+import com.ozel.haritayukleyici.platform.BukkitServer;
+import com.ozel.haritayukleyici.platform.Folia;
+import com.ozel.haritayukleyici.platform.Paper;
+import com.ozel.haritayukleyici.platform.Sender;
+import com.ozel.haritayukleyici.util.Input;
+import com.ozel.haritayukleyici.util.TranslationKey;
+import com.ozel.haritayukleyici.util.Version;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -41,7 +41,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.Properties;
 
-import static org.popcraft.chunky.util.Translator.translate;
+import static com.ozel.haritayukleyici.util.Translator.translate;
 
 public final class ChunkyBukkit extends JavaPlugin implements Listener {
     private static final String COMMAND_PERMISSION_KEY = "chunky.command.";

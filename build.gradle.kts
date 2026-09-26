@@ -67,12 +67,4 @@ subprojects {
     }
 }
 
-fun commitsSinceLastTag(): String {
-    val tagDescription = providers.exec {
-        commandLine("git", "describe", "--tags")
-    }.standardOutput.asText.get()
-    if (tagDescription.indexOf('-') < 0) {
-        return "0"
-    }
-    return tagDescription.split('-')[1]
-}
+fun commitsSinceLastTag(): String = "0"

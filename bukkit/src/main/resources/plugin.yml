@@ -1,6 +1,6 @@
 name: ${name}
 version: ${version}
-main: org.popcraft.chunky.ChunkyBukkit
+main: com.ozel.haritayukleyici.ChunkyBukkit
 api-version: 1.13
 folia-supported: true
 softdepend: [dynmap, BlueMap, squaremap, WorldBorder]
